@@ -1,1 +1,17 @@
-@import 'tailwindcss'
+@import 'tailwindcss';
+
+.font-inter{
+    font-family: "Inter", serfi;
+}
+.font-space {
+  font-family: "Space Grotesk", serif;
+}
+
+.font-roboto {
+  font-family: "Roboto", serif;
+}
+
+.font-lobster {
+    font-family: "Lobster Two", serif;
+}
+

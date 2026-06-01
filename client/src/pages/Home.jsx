@@ -9,7 +9,7 @@ export default function Home() {
                 <div>
                     <div className='relative flex'>
                         <div className='absolute bg-purple-400/50 rounded-full blur-3xl w-48 h-48 top-1/2 right-1/2 -translate-x-95 -translate-y-29'></div>
-                        <img className='ml-20 mt-10 w-60 h-50 relative z-100' src={avatar} alt="avatar" />
+                        <img className='ml-20 mt-10 w-65 h-50 relative z-100' src={avatar} alt="avatar" />
 
                         <div className='flex flex-col m-10 mt-20 ml-4 w-full'>
                             <h1 className='text-3xl font-roboto font-bold text-white'>Hey, It's <span className='text-purple-400 font-extrabold font-space uppercase'>Nishant Chaudhary</span>!</h1>

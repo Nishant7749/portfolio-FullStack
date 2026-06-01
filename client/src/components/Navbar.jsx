@@ -13,10 +13,10 @@ export default function Navbar() {
             <h1 className="text-2xl uppercase font-bold font-mono">Portfolio</h1>
 
             <div className="flex gap-4 text-xl">
-                <Link className="hover:text-blue-200">Home</Link>
-                <Link className="hover:text-blue-200">About</Link>
-                <Link className="hover:text-blue-200">Works</Link>
-                <Link className="hover:text-blue-200 mr-10">Contact</Link>
+                <Link to='/' className="hover:text-blue-200">Home</Link>
+                <Link to='/about' className="hover:text-blue-200">About</Link>
+                <Link to='/works' className="hover:text-blue-200">Works</Link>
+                <Link to='/contact' className="hover:text-blue-200 mr-10">Contact</Link>
 
             </div>
         </div>

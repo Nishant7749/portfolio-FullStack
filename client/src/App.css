@@ -15,3 +15,21 @@
     font-family: "Lobster Two", serif;
 }
 
+
+@theme {
+  --animate-float: float 1s ease-in ;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(30px);
+    scale: 0.95;
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    scale: 1;
+    opacity: 1;
+  }
+}
+

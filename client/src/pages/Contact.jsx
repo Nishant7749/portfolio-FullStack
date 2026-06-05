@@ -17,6 +17,7 @@ export default function Contact() {
             <h1 className='font-space font-extrabold text-3xl m-5 text-white'>Anything To Ask?</h1>
 
             <div className='bg-gray-400/10 p-10 rounded-xl flex gap-5'>
+            
             <ContactForm/>
 
             <div>

@@ -12,6 +12,10 @@ app.use('/contact', Router)
 
 connectDB()
 
-app.listen(5000, ()=> {
+app.get('/', (req, res)=> {
+    res.send('API running...')
+})
+
+app.listen(process.env.PORT, ()=> {
     console.log('[server] http://localhost:5000/contact')
 })

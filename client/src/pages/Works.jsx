@@ -1,8 +1,8 @@
 import ProjectCard from "../components/ProjectCard"
 import { FaArrowRight } from "react-icons/fa6"
-import bloggy from '../assets/bloggy.jpg'
-import movie from '../assets/movie.jpg'
-import quizzy from '../assets/quizzy.jpg'
+import bloggy from '../assets/bloggy.JPG'
+import movie from '../assets/movie.JPG'
+import quizzy from '../assets/quizzy.JPG'
 
 export default function Works() {
     const projects = [

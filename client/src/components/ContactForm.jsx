@@ -31,8 +31,8 @@ export default function ContactForm() {
     return (
         <>
             <div>
-                <form onSubmit={handleSubmit} className="flex flex-col gap-3 font-space">
-                    <div className="flex gap-3">
+                <form onSubmit={handleSubmit} className="flex w-65 md:w-full flex-col gap-3 font-space">
+                    <div className="flex flex-col md:flex-row gap-3">
                         <input className="border text-white bg-gray-400/10 border-gray-400/20 rounded-md p-2 outline-none" type="text" name='firstname' value={formData.firstname} onChange={handleChange} placeholder="First Name" />
                         <input className="border text-white bg-gray-400/10 border-gray-400/20 rounded-md p-2 outline-none" type="text" name='lastname' value={formData.lastname} onChange={handleChange} placeholder="Last Name" />
                     </div>

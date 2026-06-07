@@ -54,7 +54,7 @@ export default function Works() {
     </>
 ))}
 
-        <button className='border w-1/6 flex items-center justify-center gap-5 border-purple-400 text-gray-400 text-lg p-3 font-space rounded-md cursor-pointer ml-30 mt-10 hover:bg-purple-400 hover:text-white animate-float'><a href="https://github.com/Nishant7749">See More</a> <FaArrowRight className='transition-transform hover:translate-x-1'/></button>
+        <button className='border md:w-1/6 flex items-center justify-center gap-5 border-purple-400 text-gray-400 text-lg p-3 font-space rounded-md cursor-pointer ml-30 mt-10 hover:bg-purple-400 hover:text-white animate-float'><a href="https://github.com/Nishant7749">See More</a> <FaArrowRight className='transition-transform hover:translate-x-1'/></button>
         
         </div>
         </>

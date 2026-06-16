@@ -3,6 +3,7 @@ import { FaArrowRight } from "react-icons/fa6"
 import bloggy from '../assets/bloggy.JPG'
 import movie from '../assets/movie.JPG'
 import quizzy from '../assets/quizzy.JPG'
+import resumeiq from '../assets/resumeiq.jpeg'
 
 export default function Works() {
     const projects = [
@@ -34,7 +35,15 @@ export default function Works() {
             title: "movies-search",
             description: 'Movie Search App is a lightweight web application that allows users to search for movies and instantly access details such as posters, titles, and release years. Built using HTML, CSS, and JavaScript, the project integrates external movie APIs to fetch and display real-time data dynamically. It demonstrates API consumption, asynchronous JavaScript, DOM manipulation, and responsive UI design to deliver a smooth and interactive user experience.'
         },
-
+{
+        img: resumeiq,
+        link: "https://github.com/Nishant7749/ResumeIQ-AI",
+        item1: "React.js",
+            item2: "TailwindCSS", 
+            item3: "Antigravity AI",
+        title: "ResumeIQ",
+        description: "ResumeIQ is a resume analysis and summarization tool that evaluates resume quality, ATS readiness, extracts key skills, and provides actionable improvement suggestions. I built it because job seekers often struggle to identify weaknesses in their resumes and understand how recruiters and ATS systems evaluate them."
+}
 
     ]
 
